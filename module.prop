@@ -1,6 +1,6 @@
-id=<string>
-name=<string>
-version=<string>
-versionCode=<int>
-author=<string>
-description=<string>
+id=magisk-enable-mifare-classic
+name=magisk-enable-mifare-classic
+version=0.1.0
+versionCode=1
+author=Akito
+description=Enable MiFare Classic NFC Smartcards.
