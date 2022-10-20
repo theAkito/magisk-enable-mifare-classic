@@ -1,5 +1,16 @@
 # Magisk Enable Mifare Classic
 
+## How
+
+Ideally, you should replace `system/vendor/etc/libnfc-nci.conf` with the equivalent of this file on your phone. Then, just append the last two lines, which enable the Mifare Classic Reader.
+
+```
+# Enable Mifare Classic NFC Smartcards.
+LEGACY_MIFARE_READER=1
+```
+
+## License
+
 Copyright © 2022  Akito <the@akito.ooo>
 
 This program is free software: you can redistribute it and/or modify
